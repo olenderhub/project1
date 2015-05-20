@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Docwiczen</title>
+  <title>WebRails</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -15,7 +15,7 @@
 	<% if current_user %>
 	  <%= current_user.email %>
 	<% else %>
-	  <h5><b><%= "Witaj anonimowy użytkowniku!" %></b></h5>
+	  <h5><b><%= "Welcome anonymous user!" %></b></h5>
 	<% end %>
 
 <%= flash[:notice] %>
@@ -33,7 +33,7 @@
 
 
 <%= yield %>
-
+<%= render 'layouts/footer' %>
 
 <script>function scroll2(){$("#banner").css("left",width),$("#banner2").animate({left:"-"+width},scr,meth,function(){scroll()}),$("#banner").animate({left:"0px"},scr,meth,function(){})}function scroll(){$("#banner2").css("left",width),$("#banner").animate({left:"-"+width},scr,meth,function(){scroll2()}),$("#banner2").animate({left:"0px"},scr,meth,function(){})}var scr=4e4,width="957px",meth="linear";scroll();</script>
 

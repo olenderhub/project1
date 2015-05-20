@@ -1,0 +1,14 @@
+<h1>Welcome#index</h1>
+<p>Find me in app/views/welcome/index.html.erb</p>
+<%= link_to "Tekst do klikniecia", "../bla" %>
+
+
+<%= form_tag("/", method: "get") do %>
+
+  <%= label_tag(:day_price, "day_price") %>
+  <%= text_field_tag(:day_price, params[:day_price]) %>
+  <% end %>
+
+<% one_to_ten = (1..10).to_a %>
+<%= one_to_ten.each { |num| (num**2)} %>
+

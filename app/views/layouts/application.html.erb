@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Docwiczen</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body class="container">
+
+<div>
+	<p><%= current_user.email if current_user %></p>
+	<tr>
+	  <td><%= link_to "Sign in", new_user_session_path %></td>
+	  <td><%= link_to "Sign up", new_user_registration_path %></td>
+	  <td><%= link_to "Sing out", destroy_user_session_path, method: :delete %></td>
+	</tr>
+</div>
+<%= flash[:notice] %>
+<%= flash[:warning] %>
+
+<%= yield %>
+
+</body>
+</html>

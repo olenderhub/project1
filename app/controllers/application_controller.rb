@@ -4,7 +4,7 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   rescue_from CanCan::AccessDenied do |ex|
+  	flash[:warning] = ex.message
   	redirect_to root_url
-    flash[:warning] = ex.message
   end
 end

@@ -9,11 +9,17 @@
 <body class="container">
 
 <div>
-	<p><%= current_user.email if current_user %></p>
+	<p>
+	<% if current_user %>
+	  <%= current_user.email %>
+	<% else %>
+	  <%= "Witaj anonimowy użytkowniku!" %>
+	<% end %>
+	</p>
 	<tr>
-	  <td><%= link_to "Sign in", new_user_session_path %></td>
-	  <td><%= link_to "Sign up", new_user_registration_path %></td>
-	  <td><%= link_to "Sing out", destroy_user_session_path, method: :delete %></td>
+	  <td><%= link_to "Sign in", new_user_session_path if !current_user %></td>
+	  <td><%= link_to "Sign up", new_user_registration_path  if !current_user  %></td>
+	  <td><%= link_to "Sing out", destroy_user_session_path, method: :delete  if current_user  %></td>
 	</tr>
 </div>
 <%= flash[:notice] %>

@@ -13,6 +13,7 @@ class Ability
       else
         can :read, :all
         can :manage_own_article, Article, user_id: user.id
+        can :destroy, Comment, user_id: user.id
       end
     #
     # The first argument to `can` is the action you are giving the user

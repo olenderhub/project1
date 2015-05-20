@@ -30,7 +30,6 @@ class ArticlesController < ApplicationController
   def create
     @article = Article.new(article_params)
     @article.user = current_user
-    # @article[:user_id] = current_user.id
     if @article.save
       redirect_to @article
     else
@@ -50,8 +49,8 @@ class ArticlesController < ApplicationController
 
   def destroy
     @article = Article.find(params[:id])
+    authorize! :destroy, @article
     @article.destroy
-
     redirect_to articles_path
   end
 

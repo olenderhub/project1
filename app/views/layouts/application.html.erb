@@ -12,18 +12,12 @@
 
 <body class="body-container">
 
-
-
-
-<div>
-	<p>
 	<% if current_user %>
 	  <%= current_user.email %>
 	<% else %>
-	  <%= "Witaj anonimowy użytkowniku!" %>
+	  <h5><b><%= "Witaj anonimowy użytkowniku!" %></b></h5>
 	<% end %>
-	</p>
-</div>
+
 <%= flash[:notice] %>
 <%= flash[:warning] %>
 

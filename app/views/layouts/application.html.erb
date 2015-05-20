@@ -6,7 +6,14 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
+
+
+
+
 <body class="container">
+
+
+
 
 <div>
 	<p>
@@ -25,7 +32,22 @@
 <%= flash[:notice] %>
 <%= flash[:warning] %>
 
+<div id="main-container">
+  <div id="scroll">
+    <div id="banner-holder">
+        <div id="banner"></div>
+        <div id="banner2"></div>
+    </div>
+  </div>
+</div>
+
+
+
 <%= yield %>
+
+
+<script>function scroll2(){$("#banner").css("left",width),$("#banner2").animate({left:"-"+width},scr,meth,function(){scroll()}),$("#banner").animate({left:"0px"},scr,meth,function(){})}function scroll(){$("#banner2").css("left",width),$("#banner").animate({left:"-"+width},scr,meth,function(){scroll2()}),$("#banner2").animate({left:"0px"},scr,meth,function(){})}var scr=4e4,width="957px",meth="linear";scroll();</script>
+
 
 </body>
 </html>

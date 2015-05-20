@@ -19,8 +19,9 @@
  *= require_self
  */
 
-#main-container {
-   width: 954px;
+.body-container{
+   width:957px;
+   margin:0px auto;
 }
 
 #scroll {
@@ -29,6 +30,9 @@
     overflow: hidden;
     border-top: 1px #666 solid;
     border-bottom: 1px #666 solid;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
 }
 #banner-holder {
     width: 1914px;

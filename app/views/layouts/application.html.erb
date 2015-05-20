@@ -8,9 +8,9 @@
 </head>
 
 
+<%= render 'layouts/header' %>
 
-
-<body class="container">
+<body class="body-container">
 
 
 
@@ -23,11 +23,6 @@
 	  <%= "Witaj anonimowy użytkowniku!" %>
 	<% end %>
 	</p>
-	<tr>
-	  <td><%= link_to "Sign in", new_user_session_path if !current_user %></td>
-	  <td><%= link_to "Sign up", new_user_registration_path  if !current_user  %></td>
-	  <td><%= link_to "Sing out", destroy_user_session_path, method: :delete  if current_user  %></td>
-	</tr>
 </div>
 <%= flash[:notice] %>
 <%= flash[:warning] %>

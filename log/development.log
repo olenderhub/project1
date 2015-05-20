@@ -30642,3 +30642,2945 @@ Processing by ArticlesController#index as HTML
   [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
   Rendered articles/index.html.erb within layouts/application (6.0ms)
 Completed 200 OK in 55ms (Views: 51.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 22:48:59 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (19.2ms)
+Completed 200 OK in 1521ms (Views: 1487.1ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/assets/application.self-193c6c861325831c4dfbc41d8709e03513f0806ed7ac7b46804baf5641e4943c.css?body=1" for 127.0.0.1 at 2015-05-20 22:49:01 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 22:49:25 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 59ms (Views: 54.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 22:57:16 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 54ms (Views: 52.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 22:57:43 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 1384ms (Views: 1381.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.self-6354c81de2b8b91951fb0ae903357476e5683e65d72ae1ad1d664578f3e02d6b.css?body=1" for 127.0.0.1 at 2015-05-20 22:57:44 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 22:57:44 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 67ms (Views: 63.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:01:50 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_header.html.erb (17.0ms)
+  Rendered shared/500.html within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (13.9ms)
+Completed 500 Internal Server Error in 151ms
+
+ActionView::Template::Error (undefined local variable or method `help_path' for #<#<Class:0x007f24103ee050>:0x007f24117b5228>):
+    4:     <nav>
+    5:       <ul class="nav navbar-nav navbar-right">
+    6:         <li><%= link_to "Home", root_path %></li>
+    7:         <li><%= link_to "Help", help_path %></li>
+    8:         <% if logged_in? %>
+    9:           <li><%= link_to "Users", users_path %></li>
+   10:           <li class="dropdown">
+  app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__2083861563345164676_69896444245260'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1727804504110734498_69896432614760'
+  app/controllers/application_controller.rb:19:in `render_server_error'
+
+
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.9ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.7ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (25.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:02:02 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (9.8ms)
+  Rendered layouts/_header.html.erb (13.2ms)
+  Rendered shared/500.html within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (11.5ms)
+Completed 500 Internal Server Error in 133ms
+
+ActionView::Template::Error (undefined method `logged_in?' for #<#<Class:0x007f24103ee050>:0x007f2413c79c58>):
+    4:     <nav>
+    5:       <ul class="nav navbar-nav navbar-right">
+    6:         <li><%= link_to "Home", root_path %></li>
+    7:         <% if logged_in? %>
+    8:           <li><%= link_to "Users", users_path %></li>
+    9:           <li class="dropdown">
+   10:             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+  app/views/layouts/_header.html.erb:7:in `_app_views_layouts__header_html_erb__2083861563345164676_69896449742160'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1727804504110734498_69896432614760'
+  app/controllers/application_controller.rb:19:in `render_server_error'
+
+
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.0ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.5ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (24.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:02:23 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_header.html.erb (12.5ms)
+  Rendered shared/500.html within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (11.6ms)
+Completed 500 Internal Server Error in 116ms
+
+ActionView::Template::Error (undefined local variable or method `users_path' for #<#<Class:0x007f24103ee050>:0x000000059ec258>):
+     5:       <ul class="nav navbar-nav navbar-right">
+     6:         <li><%= link_to "Home", root_path %></li>
+     7: 
+     8:           <li><%= link_to "Users", users_path %></li>
+     9:           <li class="dropdown">
+    10:             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+    11:               Account <b class="caret"></b>
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__2083861563345164676_47830280'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1727804504110734498_69896432614760'
+  app/controllers/application_controller.rb:19:in `render_server_error'
+
+
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.7ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (22.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:03:29 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.3ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (7.3ms)
+  Rendered layouts/_header.html.erb (13.6ms)
+  Rendered shared/500.html within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (10.3ms)
+Completed 500 Internal Server Error in 127ms
+
+ActionView::Template::Error (undefined local variable or method `users_path' for #<#<Class:0x007f24103ee050>:0x007f24136a4378>):
+     5:       <ul class="nav navbar-nav navbar-right">
+     6:         <li><%= link_to "Home", root_path %></li>
+     7: 
+     8:           <li><%= link_to "Users", users_path %></li>
+     9:           <li class="dropdown">
+    10:             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+    11:               Account <b class="caret"></b>
+  app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__2083861563345164676_47830280'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1727804504110734498_69896432614760'
+  app/controllers/application_controller.rb:19:in `render_server_error'
+
+
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.4ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.4ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (23.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:03:37 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_header.html.erb (14.5ms)
+  Rendered shared/500.html within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (12.9ms)
+Completed 500 Internal Server Error in 126ms
+
+ActionView::Template::Error (undefined method `user_path' for #<#<Class:0x007f24103ee050>:0x007f2412805178>):
+    10:               Account <b class="caret"></b>
+    11:             </a>
+    12:             <ul class="dropdown-menu">
+    13:               <li><%= link_to "Profile", current_user %></li>
+    14:               <li><%= link_to "Settings", edit_user_path(current_user) %></li>
+    15:               <li class="divider"></li>
+    16:               <li>
+  app/views/layouts/_header.html.erb:13:in `_app_views_layouts__header_html_erb__2083861563345164676_69896454600360'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1727804504110734498_69896432614760'
+  app/controllers/application_controller.rb:19:in `render_server_error'
+
+
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.5ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.4ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (24.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:03:44 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (3.8ms)
+  Rendered layouts/_header.html.erb (12.7ms)
+  Rendered shared/500.html within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (11.2ms)
+Completed 500 Internal Server Error in 115ms
+
+ActionView::Template::Error (undefined local variable or method `logout_path' for #<#<Class:0x007f24103ee050>:0x00000005c70ab0>):
+    12:             <ul class="dropdown-menu">
+    13:               <li class="divider"></li>
+    14:               <li>
+    15:                 <%= link_to "Log out", logout_path, method: "delete" %>
+    16:               </li>
+    17:             </ul>
+    18:           </li>
+  app/views/layouts/_header.html.erb:15:in `_app_views_layouts__header_html_erb__2083861563345164676_49339400'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1727804504110734498_69896432614760'
+  app/controllers/application_controller.rb:19:in `render_server_error'
+
+
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.4ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.4ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (22.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:03:49 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_header.html.erb (10.9ms)
+  Rendered shared/500.html within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (10.8ms)
+Completed 500 Internal Server Error in 105ms
+
+ActionView::Template::Error (undefined local variable or method `login_path' for #<#<Class:0x007f24103ee050>:0x007f24132111d0>):
+    17:             </ul>
+    18:           </li>
+    19: 
+    20:           <li><%= link_to "Log in", login_path %></li>
+    21:       </ul>
+    22:     </nav>
+    23:   </div>
+  app/views/layouts/_header.html.erb:20:in `_app_views_layouts__header_html_erb__2083861563345164676_69896457532660'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1727804504110734498_69896432614760'
+  app/controllers/application_controller.rb:19:in `render_server_error'
+
+
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.5ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.4ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.4ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (24.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:03:55 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 51ms (Views: 47.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:04:21 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 58ms (Views: 54.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:04:38 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 56ms (Views: 52.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:05:43 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (4.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+Completed 200 OK in 55ms (Views: 52.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:06:45 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+Completed 200 OK in 58ms (Views: 54.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:07:44 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 1408ms (Views: 1405.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.self-bda1f5bca2ec679e5baaaddd93370b962c1f3ca09dbcbb0d7580b5f8fc03e59c.css?body=1" for 127.0.0.1 at 2015-05-20 23:07:45 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:09:20 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (6.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 79ms (Views: 76.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:10:06 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (5.4ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 60ms (Views: 56.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:10:10 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (6.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 66ms (Views: 63.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:10:36 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+Completed 200 OK in 66ms (Views: 63.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:12:01 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.5ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 63ms (Views: 60.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:12:24 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (4.8ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 61ms (Views: 57.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:13:15 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 60ms (Views: 57.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:13:25 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 59ms (Views: 56.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:13:33 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 52ms (Views: 49.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:15:19 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 54ms (Views: 52.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" for 127.0.0.1 at 2015-05-20 23:15:19 +0200
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2015-05-20 23:16:52 +0200
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"JXcCAoBKUsljTlUxegA5ZpsSyTth8asXE/cRDqt1SqRojTWAVkEajg0mN4wDr75N6HIKcPGWAVd7taDOWykEbw=="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 11ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:16:52 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 4ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:16:52 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (18.5ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 73ms (Views: 71.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:22:42 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (6.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.0ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 63ms (Views: 62.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:22:46 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 56ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:22:47 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.8ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 58ms (Views: 57.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:22:50 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.4ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 54ms (Views: 53.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:22:53 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.6ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 52ms (Views: 50.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:23:18 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 67ms (Views: 65.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:23:27 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 61ms (Views: 59.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:24:38 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.7ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+Completed 200 OK in 1314ms (Views: 1313.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-6a89c2520da8e14b3ddc2c939d54f1e4d511fcc461d5fe540575d20bbc3d9d07.css?body=1" for 127.0.0.1 at 2015-05-20 23:24:39 +0200
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:25:10 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.7ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 1445ms (Views: 1444.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f4c5c5c3a72b90fd09ff97dd428c9a5483d6afc9043750cbea1d846ee7ba9edc.css?body=1" for 127.0.0.1 at 2015-05-20 23:25:12 +0200
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:25:51 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.8ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+Completed 200 OK in 1229ms (Views: 1228.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d7fd186f100597ae61b7a0cb97635fe57734018544780a20c9c6d6a976c4ba2f.css?body=1" for 127.0.0.1 at 2015-05-20 23:25:53 +0200
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:29:18 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.6ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 60ms (Views: 58.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new_user_session_path" for 127.0.0.1 at 2015-05-20 23:29:20 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:29:20 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:29:20 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (6.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.2ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+Completed 200 OK in 59ms (Views: 58.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new_user_session_path" for 127.0.0.1 at 2015-05-20 23:29:21 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:29:21 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:29:21 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.3ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 70ms (Views: 68.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new_user_session_path" for 127.0.0.1 at 2015-05-20 23:29:22 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:29:22 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:29:22 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (7.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 71ms (Views: 70.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new_user_session_path" for 127.0.0.1 at 2015-05-20 23:29:23 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:29:23 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:29:23 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.7ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 64ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new_user_session_path" for 127.0.0.1 at 2015-05-20 23:29:24 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:29:24 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:29:24 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 72ms (Views: 71.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new_user_session_path" for 127.0.0.1 at 2015-05-20 23:29:26 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:29:26 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:29:26 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.8ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 57ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new_user_session_path" for 127.0.0.1 at 2015-05-20 23:29:27 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:29:27 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:29:27 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.2ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 54ms (Views: 52.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new_user_session_path" for 127.0.0.1 at 2015-05-20 23:29:27 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:29:27 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:29:27 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+Completed 200 OK in 51ms (Views: 49.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new_user_session_path" for 127.0.0.1 at 2015-05-20 23:29:28 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:29:28 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:29:28 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.9ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 55ms (Views: 54.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new_user_session_path" for 127.0.0.1 at 2015-05-20 23:29:29 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:29:29 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:29:29 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.5ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 58ms (Views: 56.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new_user_session_path" for 127.0.0.1 at 2015-05-20 23:29:31 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:29:31 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:29:31 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 54ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new_user_session_path" for 127.0.0.1 at 2015-05-20 23:29:34 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:29:34 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:29:34 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 53ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new_user_session_path" for 127.0.0.1 at 2015-05-20 23:29:35 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:29:35 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:29:35 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 53ms (Views: 52.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new_user_session_path" for 127.0.0.1 at 2015-05-20 23:29:45 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:29:45 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:29:45 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 58ms (Views: 56.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new_user_session_path" for 127.0.0.1 at 2015-05-20 23:29:49 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:29:49 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:29:49 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 55ms (Views: 53.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new_user_session_path" for 127.0.0.1 at 2015-05-20 23:29:50 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:29:50 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:29:50 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.3ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 66ms (Views: 64.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new_user_session_path" for 127.0.0.1 at 2015-05-20 23:29:51 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:29:51 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:29:51 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.3ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 65ms (Views: 64.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new_user_session_path" for 127.0.0.1 at 2015-05-20 23:29:52 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:29:52 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:29:52 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.4ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 70ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new_user_session_path" for 127.0.0.1 at 2015-05-20 23:30:13 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:30:13 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:30:13 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.7ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 66ms (Views: 65.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new_user_session_path" for 127.0.0.1 at 2015-05-20 23:30:14 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:30:14 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:30:14 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 61ms (Views: 59.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new_user_session_path" for 127.0.0.1 at 2015-05-20 23:30:47 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:30:47 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:30:47 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.4ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 500 Internal Server Error in 64ms
+
+SyntaxError (/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:19: syntax error, unexpected '<', expecting keyword_end
+'.freeze;         <li><a href="new_user_session_...
+                   ^
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:19: syntax error, unexpected '<'
+... href="new_user_session_path"><span class="glyphicon glyphic...
+...                               ^
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:19: syntax error, unexpected '<'
+...ss="glyphicon glyphicon-user"></span> Sign Up</a></li> 
+...                               ^
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:19: unknown regexp option - a
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:19: syntax error, unexpected '<'
+...icon-user"></span> Sign Up</a></li> 
+...                               ^
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:20: unknown regexp options - pa
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:20: unknown regexp option - l
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:21: syntax error, unexpected '<'
+      </ul>
+       ^
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:22: unknown regexp options - dv
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:23: syntax error, unexpected '<'
+  </div>
+   ^
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:24: unknown regexp options - av
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:26: syntax error, unexpected '<'
+	  <td>'.freeze;@output_buffer.ap...
+	   ^
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:26: unterminated regexp meets end of file
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:26: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/layouts/_header.html.erb:19: syntax error, unexpected '<', expecting keyword_end
+  app/views/layouts/_header.html.erb:19: syntax error, unexpected '<'
+  app/views/layouts/_header.html.erb:19: syntax error, unexpected '<'
+  app/views/layouts/_header.html.erb:19: unknown regexp option - a
+  app/views/layouts/_header.html.erb:19: syntax error, unexpected '<'
+  app/views/layouts/_header.html.erb:20: unknown regexp options - pa
+  app/views/layouts/_header.html.erb:20: unknown regexp option - l
+  app/views/layouts/_header.html.erb:21: syntax error, unexpected '<'
+  app/views/layouts/_header.html.erb:22: unknown regexp options - dv
+  app/views/layouts/_header.html.erb:23: syntax error, unexpected '<'
+  app/views/layouts/_header.html.erb:24: unknown regexp options - av
+  app/views/layouts/_header.html.erb:26: syntax error, unexpected '<'
+  app/views/layouts/_header.html.erb:26: unterminated regexp meets end of file
+  app/views/layouts/_header.html.erb:26: syntax error, unexpected end-of-input, expecting keyword_end
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1727804504110734498_69896461194480'
+
+
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.1ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.7ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (25.9ms)
+
+
+Started GET "/users/new_user_session_path" for 127.0.0.1 at 2015-05-20 23:30:48 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:30:48 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:30:48 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.7ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 500 Internal Server Error in 61ms
+
+SyntaxError (/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:19: syntax error, unexpected '<', expecting keyword_end
+'.freeze;         <li><a href="new_user_session_...
+                   ^
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:19: syntax error, unexpected '<'
+... href="new_user_session_path"><span class="glyphicon glyphic...
+...                               ^
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:19: syntax error, unexpected '<'
+...ss="glyphicon glyphicon-user"></span> Sign Up</a></li> 
+...                               ^
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:19: unknown regexp option - a
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:19: syntax error, unexpected '<'
+...icon-user"></span> Sign Up</a></li> 
+...                               ^
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:20: unknown regexp options - pa
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:20: unknown regexp option - l
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:21: syntax error, unexpected '<'
+      </ul>
+       ^
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:22: unknown regexp options - dv
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:23: syntax error, unexpected '<'
+  </div>
+   ^
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:24: unknown regexp options - av
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:26: syntax error, unexpected '<'
+	  <td>'.freeze;@output_buffer.ap...
+	   ^
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:26: unterminated regexp meets end of file
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:26: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/layouts/_header.html.erb:19: syntax error, unexpected '<', expecting keyword_end
+  app/views/layouts/_header.html.erb:19: syntax error, unexpected '<'
+  app/views/layouts/_header.html.erb:19: syntax error, unexpected '<'
+  app/views/layouts/_header.html.erb:19: unknown regexp option - a
+  app/views/layouts/_header.html.erb:19: syntax error, unexpected '<'
+  app/views/layouts/_header.html.erb:20: unknown regexp options - pa
+  app/views/layouts/_header.html.erb:20: unknown regexp option - l
+  app/views/layouts/_header.html.erb:21: syntax error, unexpected '<'
+  app/views/layouts/_header.html.erb:22: unknown regexp options - dv
+  app/views/layouts/_header.html.erb:23: syntax error, unexpected '<'
+  app/views/layouts/_header.html.erb:24: unknown regexp options - av
+  app/views/layouts/_header.html.erb:26: syntax error, unexpected '<'
+  app/views/layouts/_header.html.erb:26: unterminated regexp meets end of file
+  app/views/layouts/_header.html.erb:26: syntax error, unexpected end-of-input, expecting keyword_end
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1727804504110734498_69896461194480'
+
+
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.4ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.6ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.6ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.6ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (25.6ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:39:04 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 53ms (Views: 51.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:39:25 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.9ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 65ms (Views: 64.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:42:02 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (6.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.4ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 73ms (Views: 71.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:42:47 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.6ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 68ms (Views: 66.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:48:01 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.7ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 59ms (Views: 58.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:48:08 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.7ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 65ms (Views: 63.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:49:00 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.2ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 500 Internal Server Error in 56ms
+
+SyntaxError (/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting ')'
+...n-log-in" new_user_session_path if !current_user );@output_b...
+...                               ^):
+  app/views/layouts/_header.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1727804504110734498_69896461194480'
+
+
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.5ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.0ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (24.7ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:49:11 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 500 Internal Server Error in 48ms
+
+SyntaxError (/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:21: syntax error, unexpected modifier_if, expecting =>
+...g-in", new_user_session_path if !current_user );@output_buff...
+...                               ^):
+  app/views/layouts/_header.html.erb:21: syntax error, unexpected modifier_if, expecting =>
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1727804504110734498_69896461194480'
+
+
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.1ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.9ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.7ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (25.1ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:49:17 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 500 Internal Server Error in 47ms
+
+SyntaxError (/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ton_text" new_user_session_path if !current_user );@output_b...
+...                               ^):
+  app/views/layouts/_header.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1727804504110734498_69896461194480'
+
+
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (23.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.5ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (22.9ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:49:21 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.9ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 58ms (Views: 57.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:50:20 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.2ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 500 Internal Server Error in 56ms
+
+SyntaxError (/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:21: syntax error, unexpected ',', expecting ')'
+..._session_path if !current_user,  { :class=>"ui-button-text b...
+...                               ^):
+  app/views/layouts/_header.html.erb:21: syntax error, unexpected ',', expecting ')'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1727804504110734498_69896461194480'
+
+
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.7ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.0ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (25.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:50:31 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.9ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 500 Internal Server Error in 58ms
+
+SyntaxError (/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:21: syntax error, unexpected ',', expecting ')'
+..._session_path if !current_user, { :class=>"ui-button-text bu...
+...                               ^):
+  app/views/layouts/_header.html.erb:21: syntax error, unexpected ',', expecting ')'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1727804504110734498_69896461194480'
+
+
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.9ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.0ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (23.5ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:50:40 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.9ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 51ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:50:52 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.4ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 54ms (Views: 52.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:51:09 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 53ms (Views: 51.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:51:46 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.2ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 57ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:51:55 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 53ms (Views: 52.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:52:00 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.2ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 57ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:52:07 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.2ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 52ms (Views: 50.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:52:52 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 53ms (Views: 51.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:53:06 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dLVRDH9lWRmXUKeZ5pgvZGUeT7Uj/e/Lx61metKQQWSGEbMGTDDvf3TRnHpC8/95iXQn2blxgLCywULM7GfrIA==", "user"=>{"email"=>"test@test.pl", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "test@test.pl"]]
+Completed 401 Unauthorized in 3ms
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dLVRDH9lWRmXUKeZ5pgvZGUeT7Uj/e/Lx61metKQQWSGEbMGTDDvf3TRnHpC8/95iXQn2blxgLCywULM7GfrIA==", "user"=>{"email"=>"test@test.pl", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendered devise/shared/_links.html.erb (2.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.9ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 119ms (Views: 52.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:53:12 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LAUhv7/hl0eNmotrwYiX+G0mB+Dvq+lh+/IGnO8+rrzeocO1jLQhIW4bsIhl40flgUxvjHUnhhqOniIq0ckE+A==", "user"=>{"email"=>"olender.hub@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["email", "olender.hub@gmail.com"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5  [["last_sign_in_at", "2015-05-20 20:41:50.527381"], ["current_sign_in_at", "2015-05-20 21:53:12.107398"], ["sign_in_count", 9], ["updated_at", "2015-05-20 21:53:12.108482"], ["id", 1]]
+  [1m[36m (125.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 201ms (ActiveRecord: 125.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:53:12 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.3ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (6.5ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 52ms (Views: 49.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2015-05-20 23:53:18 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 50ms (Views: 48.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2015-05-20 23:53:19 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 50ms (Views: 48.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2015-05-20 23:53:20 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 59ms (Views: 57.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2015-05-20 23:53:20 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 56ms (Views: 53.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2015-05-20 23:53:21 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 59ms (Views: 56.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2015-05-20 23:53:21 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (6.2ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 62ms (Views: 59.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2015-05-20 23:53:42 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 500 Internal Server Error in 61ms
+
+SyntaxError (/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:21: syntax error, unexpected ',', expecting ')'
+..._session_path if !current_user, { :class=>"glyphicon glyphic...
+...                               ^):
+  app/views/layouts/_header.html.erb:21: syntax error, unexpected ',', expecting ')'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1727804504110734498_69896461194480'
+
+
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.7ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.4ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (14.7ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2015-05-20 23:53:55 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 61ms (Views: 58.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/new_user_session_path" for 127.0.0.1 at 2015-05-20 23:54:06 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:54:06 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (3.9ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 53ms (Views: 50.4ms | ActiveRecord: 0.9ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2015-05-20 23:54:13 +0200
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"6JGIO4wDWLiPYTDtQAl3UMeZ06R1SGJY14TlOVV7BJom5puvQ4em0349cINudCvOmiD0N2OKTryOmtd1MfbyMA=="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:54:13 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:54:13 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.2ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered shared/500.html within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+Completed 500 Internal Server Error in 110ms
+
+ActionView::Template::Error (undefined method `stringify_keys' for "/users/sign_in":String):
+    18:       <ul class="nav navbar-nav navbar-right">
+    19:         <li><a href="new_user_session_path"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+    20:         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    21:         	  <li><%= link_to "Sign in",  { :class=>"glyphicon glyphicon-log-in" }, new_user_session_path if !current_user %></li>
+    22:       </ul>
+    23:     </div>
+    24:   </div>
+  app/views/layouts/_header.html.erb:21:in `_app_views_layouts__header_html_erb__2083861563345164676_69896459804840'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1727804504110734498_69896461194480'
+  app/controllers/application_controller.rb:19:in `render_server_error'
+
+
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.1ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.9ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.7ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (26.9ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:54:27 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered shared/500.html within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 500 Internal Server Error in 98ms
+
+ActionView::Template::Error (undefined method `stringify_keys' for "/users/sign_in":String):
+    18:       <ul class="nav navbar-nav navbar-right">
+    19:         <li><a href="new_user_session_path"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+    20:         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    21:         	  <li><%= link_to "Signin",  { :class=>"glyphicon glyphicon-log-in" }, new_user_session_path if !current_user %></li>
+    22:       </ul>
+    23:     </div>
+    24:   </div>
+  app/views/layouts/_header.html.erb:21:in `_app_views_layouts__header_html_erb__2083861563345164676_34190980'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1727804504110734498_69896461194480'
+  app/controllers/application_controller.rb:19:in `render_server_error'
+
+
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.4ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.4ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.8ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (24.5ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:55:47 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.3ms)
+  Rendered layouts/_header.html.erb (2.2ms)
+  Rendered shared/500.html within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 500 Internal Server Error in 121ms
+
+ActionView::Template::Error (undefined method `stringify_keys' for "/users/sign_in":String):
+    18:       <ul class="nav navbar-nav navbar-right">
+    19:         <li><a href="new_user_session_path"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+    20:         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    21:         	  <li><%= link_to "Sign in",  { :class=>"glyphicon glyphicon-log-in" }, new_user_session_path if !current_user %></li>
+    22:       </ul>
+    23:     </div>
+    24:   </div>
+  app/views/layouts/_header.html.erb:21:in `_app_views_layouts__header_html_erb__2083861563345164676_69896455966260'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1727804504110734498_69896461194480'
+  app/controllers/application_controller.rb:19:in `render_server_error'
+
+
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (18.1ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (24.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:57:31 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:57:31 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 60ms (Views: 59.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:57:36 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"h/NAJBeGc+3S31azxjf0zOrw3OV1t6+WQOp02fMOh2cIKtq/PyrZKlq3fBUFhtkL79yFzBasancxWIlkJI4aBA==", "user"=>{"email"=>"olender.hub@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "olender.hub@gmail.com"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["last_sign_in_at", "2015-05-20 21:53:12.107398"], ["current_sign_in_at", "2015-05-20 21:57:37.005400"], ["sign_in_count", 10], ["updated_at", "2015-05-20 21:57:37.006648"], ["id", 1]]
+  [1m[35m (80.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 155ms (ActiveRecord: 81.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:57:37 +0200
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "articles"
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)
+  Rendered articles/index.html.erb within layouts/application (4.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+Completed 200 OK in 53ms (Views: 51.0ms | ActiveRecord: 1.0ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2015-05-20 23:57:39 +0200
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"drXZi/SK9y/mWTHvAeb/6QZOs4FDYhozBnj31tmqzpU8EgAshPPtIaATlbX/bH6ji8jNedgYSvGUAfrwA00vMA=="}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-20 23:57:39 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:57:39 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 63ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:58:09 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.4ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 61ms (Views: 60.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:59:12 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.4ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 68ms (Views: 67.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-20 23:59:46 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (7.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.8ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 61ms (Views: 59.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:01:24 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_header.html.erb (29.6ms)
+  Rendered shared/500.html within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (15.6ms)
+Completed 500 Internal Server Error in 154ms
+
+ActionView::Template::Error (undefined method `page_path' for #<#<Class:0x007f2410f513c0>:0x007f2407ebb298>):
+    25: </nav>
+    26: <li><a href="new_user_session_path"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+    27: 	  <td><%= link_to "Sign in", new_user_session_path if !current_user %></td>
+    28: <%= link_to page_path('messages') do %>
+    29:   <span class="glyphicon glyphicon-comment"></span>
+    30: <% end %>
+  app/views/layouts/_header.html.erb:28:in `_app_views_layouts__header_html_erb__2083861563345164676_69896348133100'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1727804504110734498_69896461194480'
+  app/controllers/application_controller.rb:19:in `render_server_error'
+
+
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.5ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (27.1ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:01:46 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.5ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 500 Internal Server Error in 54ms
+
+SyntaxError (/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:30: syntax error, unexpected ')', expecting keyword_end
+... link_to new_user_session_path) do @output_buffer.safe_appen...
+...                               ^
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:34: syntax error, unexpected keyword_ensure, expecting end-of-input):
+  app/views/layouts/_header.html.erb:30: syntax error, unexpected ')', expecting keyword_end
+  app/views/layouts/_header.html.erb:34: syntax error, unexpected keyword_ensure, expecting end-of-input
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1727804504110734498_69896461194480'
+
+
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.4ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (25.0ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (11.8ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (24.1ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:03:39 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.7ms)
+  Rendered layouts/_header.html.erb (30.5ms)
+  Rendered shared/500.html within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (13.1ms)
+Completed 500 Internal Server Error in 157ms
+
+ActionView::Template::Error (undefined method `page_path' for #<#<Class:0x007f2410f513c0>:0x007f24129e9200>):
+    29: 	  <td><%= link_to "Sign in", new_user_session_path if !current_user %></td>
+    30: 
+    31: 
+    32: <%= link_to page_path('messages') do %>
+    33:   <span class="glyphicon glyphicon-comment"></span>
+    34: <% end %>
+    35: 
+  app/views/layouts/_header.html.erb:32:in `_app_views_layouts__header_html_erb__2083861563345164676_69896354301280'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1727804504110734498_69896461194480'
+  app/controllers/application_controller.rb:19:in `render_server_error'
+
+
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.1ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.0ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (24.9ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:03:46 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.4ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 50ms (Views: 49.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:03:58 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.2ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 57ms (Views: 56.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:05:31 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (6.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.3ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 59ms (Views: 57.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 00:05:39 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:05:39 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 54ms (Views: 53.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 00:05:40 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:05:40 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 56ms (Views: 55.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 00:05:40 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:05:40 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.3ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 66ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 00:05:41 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:05:41 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 56ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 00:05:43 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:05:43 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 57ms (Views: 55.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 00:05:54 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:05:54 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.7ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 56ms (Views: 55.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:06:23 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.5ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 64ms (Views: 63.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:06:33 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.8ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 66ms (Views: 64.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:06:48 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.9ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 57ms (Views: 55.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:07:03 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (6.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (12.0ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 63ms (Views: 61.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new_user_session_path" for 127.0.0.1 at 2015-05-21 00:07:15 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 00:07:15 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:07:15 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 58ms (Views: 56.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new_user_session_path" for 127.0.0.1 at 2015-05-21 00:07:16 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 00:07:16 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:07:16 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 54ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new_user_session_path" for 127.0.0.1 at 2015-05-21 00:07:17 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 00:07:17 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:07:17 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 53ms (Views: 52.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new_user_session_path" for 127.0.0.1 at 2015-05-21 00:07:21 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 00:07:21 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:07:21 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 58ms (Views: 56.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:09:39 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (6.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.9ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 59ms (Views: 58.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:09:47 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.4ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 55ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:11:05 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (6.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.9ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 59ms (Views: 57.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:11:35 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (6.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.9ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 61ms (Views: 60.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new_user_session_path" for 127.0.0.1 at 2015-05-21 00:11:39 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 00:11:39 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:11:39 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 51ms (Views: 49.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/new_user_session_path" for 127.0.0.1 at 2015-05-21 00:12:01 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 00:12:01 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:12:01 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.8ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 72ms (Views: 71.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:12:14 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 70ms (Views: 69.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:12:14 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.8ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 59ms (Views: 57.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:12:46 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.5ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 57ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:12:48 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 57ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:13:47 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.9ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 57ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:13:49 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.4ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 61ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:13:49 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.9ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 55ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:13:50 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 52ms (Views: 50.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:14:33 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.4ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 62ms (Views: 60.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:14:35 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.8ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 55ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:14:56 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 56ms (Views: 55.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:16:20 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.4ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 55ms (Views: 54.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:17:27 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 56ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 00:17:30 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:17:30 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 55ms (Views: 53.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 00:17:31 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:17:31 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 55ms (Views: 54.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 00:18:03 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:18:03 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.8ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 60ms (Views: 58.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:18:15 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.9ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 61ms (Views: 59.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:18:30 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 55ms (Views: 53.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:19:22 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.7ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 54ms (Views: 53.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:19:52 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 54ms (Views: 52.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:19:54 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 50ms (Views: 49.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:20:30 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.5ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 61ms (Views: 59.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:20:47 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 68ms (Views: 66.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:20:55 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.2ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 63ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:21:21 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.4ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 60ms (Views: 59.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:22:37 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.2ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 65ms (Views: 64.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:22:45 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.6ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 54ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:22:53 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.9ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 61ms (Views: 60.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:23:13 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.6ms)
+  Rendered layouts/_header.html.erb (2.3ms)
+  Rendered shared/500.html within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (1.4ms)
+Completed 500 Internal Server Error in 106ms
+
+ActionView::Template::Error (undefined method `stringify_keys' for "/users/sign_in":String):
+    18:       <ul class="nav navbar-nav navbar-right">
+    19:         <li><a href="new_user_session_path"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+    20:         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    21:         	  <li><%= link_to "Sign in",  { :class=>"glyphicon glyphicon-log-in" },new_user_session_path if !current_user %></li>
+    22:       </ul>
+    23:     </div>
+    24:   </div>
+  app/views/layouts/_header.html.erb:21:in `_app_views_layouts__header_html_erb__2083861563345164676_69896351597280'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1727804504110734498_69896461194480'
+  app/controllers/application_controller.rb:19:in `render_server_error'
+
+
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.5ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (20.6ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.0ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (27.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:23:18 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.9ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 51ms (Views: 50.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:23:53 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.2ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 62ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:24:05 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.2ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 57ms (Views: 56.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:24:14 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VakMTrAhZ20kqFmVb4ZTVJxEWlgQNT9g/UuRWTBXLZee1IB3+k93Ngq8TNI7JFP8boUIFD6JuRxZo0LiLjpGUA==", "user"=>{"email"=>"olender.hub@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["email", "olender.hub@gmail.com"]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5  [["last_sign_in_at", "2015-05-20 21:57:37.005400"], ["current_sign_in_at", "2015-05-20 22:24:14.400369"], ["sign_in_count", 11], ["updated_at", "2015-05-20 22:24:14.401517"], ["id", 1]]
+  [1m[36m (111.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 186ms (ActiveRecord: 112.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 00:24:14 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.2ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (5.4ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 52ms (Views: 49.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 00:24:59 +0200
+Processing by ArticlesController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "articles"[0m
+  [1m[35mArticle Load (0.1ms)[0m  SELECT "articles".* FROM "articles"
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)[0m
+  Rendered articles/index.html.erb within layouts/application (5.9ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 62ms (Views: 59.0ms | ActiveRecord: 1.4ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2015-05-21 00:25:03 +0200
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"J7YVElzeh/Lm0F0GTZCLGS8SsVwjPv2kplqbLixZGuRkLy7iZAhN9RA0ICZiJVur/krvMBA+QwtqaGXKo/bIdA=="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 00:25:03 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:25:03 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 60ms (Views: 58.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:26:28 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (6.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (13.4ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 69ms (Views: 68.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:27:43 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 59ms (Views: 58.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:27:59 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.6ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 59ms (Views: 58.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:29:45 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+Completed 200 OK in 60ms (Views: 58.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:29:50 +0200
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ayEpgqw+cA3uwAOJaHkpIBembylomhqyiCS6DcpgNzCzfMf/Pka1e4zHsD2IfnZ4KPLOcpbrHiphABNu6e4Krg==", "user"=>{"email"=>"olender.hub@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."email" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["email", "olender.hub@gmail.com"]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["last_sign_in_at", "2015-05-20 22:24:14.400369"], ["current_sign_in_at", "2015-05-20 22:29:50.285925"], ["sign_in_count", 12], ["updated_at", "2015-05-20 22:29:50.287064"], ["id", 1]]
+  [1m[35m (70.8ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 147ms (ActiveRecord: 71.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 00:29:50 +0200
+Processing by ArticlesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "articles"
+  [1m[36mArticle Load (0.2ms)[0m  [1mSELECT "articles".* FROM "articles"[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" IN (1, 4, 5, 6)
+  Rendered articles/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+Completed 200 OK in 58ms (Views: 54.1ms | ActiveRecord: 1.1ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2015-05-21 00:29:52 +0200
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"p2AmBtF9scvzagaNbtEnwmHXyM6raLvxj9PxaAAERD5S//NOMA/t4NmPdHs8pWgbGVB/pEuMgE17N/DH5ODs6g=="}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 4ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 00:29:52 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:29:52 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.5ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 55ms (Views: 54.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:30:03 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.2ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 52ms (Views: 51.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:30:52 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 69ms (Views: 68.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:31:40 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.2ms)
+  Rendered layouts/_header.html.erb (1.5ms)
+Completed 500 Internal Server Error in 67ms
+
+SyntaxError (/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:11: syntax error, unexpected '<', expecting ')'
+    </div>
+     ^
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:14: unknown regexp option - a
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:14: syntax error, unexpected '<'
+        <li class="active"><a href="#">Home</a></li>
+                                                ^
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:15: unknown regexp option - a
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:15: syntax error, unexpected '<'
+        <li><a href="#">Page 1</a></li>
+                                   ^
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:16: unknown regexp option - a
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:16: syntax error, unexpected '<'
+        <li><a href="#">Page 2</a></li>
+                                   ^
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:17: unknown regexp option - a
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:17: syntax error, unexpected '<'
+        <li><a href="#">Page 3</a></li>
+                                   ^
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:18: unknown regexp option - l
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:19: syntax error, unexpected '<'
+      <ul class="nav navbar-nav navbar-right">
+       ^
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:20: syntax error, unexpected '<'
+       <li><%= link_to '<span class="...
+        ^
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:20: syntax error, unexpected '<'
+...="glyphicon glyphicon-log-in"></span> Sign in'.html_safe, ne...
+...                               ^
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:20: unknown regexp option - l
+unmatched close parenthesis: /span> Sign in'.html_safe, new_user_session_path if !current_user );@output_buffer.safe_append='</i
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:21: syntax error, unexpected '<'
+       <li>'.freeze;@output_buffer.ap...
+        ^
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:21: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...r.append=( link_to '<span class="glyphicon glyphicon-user"><...
+...                               ^
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:21: syntax error, unexpected '<'
+...ss="glyphicon glyphicon-user"></span> Sign up'.html_safe, ne...
+...                               ^
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:21: unknown regexp option - l
+unmatched close parenthesis: /span> Sign up'.html_safe, new_user_session_path if !current_user  );@output_buffer.safe_append='</i
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:22: syntax error, unexpected '<'
+       <li>'.freeze;@output_buffer.ap...
+        ^
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:22: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+...r.append=( link_to '<span class="glyphicon glyphicon-log-out...
+...                               ^
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:22: syntax error, unexpected '<'
+..."glyphicon glyphicon-log-out"></span> Sign out'.html_safe, d...
+...                               ^
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:22: unknown regexp option - l
+unmatched close parenthesis: /span> Sign out'.html_safe, destroy_user_session_path, method: :delete  if current_user  );@output_buffer.safe_append='</i
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:23: syntax error, unexpected '<'
+      </ul>
+       ^
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:24: unknown regexp options - dv
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:25: syntax error, unexpected '<'
+  </div>
+   ^
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:26: unknown regexp options - av
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:28: unterminated string meets end of file
+/home/hubert/project/docwiczen/app/views/layouts/_header.html.erb:28: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/layouts/_header.html.erb:11: syntax error, unexpected '<', expecting ')'
+  app/views/layouts/_header.html.erb:14: unknown regexp option - a
+  app/views/layouts/_header.html.erb:14: syntax error, unexpected '<'
+  app/views/layouts/_header.html.erb:15: unknown regexp option - a
+  app/views/layouts/_header.html.erb:15: syntax error, unexpected '<'
+  app/views/layouts/_header.html.erb:16: unknown regexp option - a
+  app/views/layouts/_header.html.erb:16: syntax error, unexpected '<'
+  app/views/layouts/_header.html.erb:17: unknown regexp option - a
+  app/views/layouts/_header.html.erb:17: syntax error, unexpected '<'
+  app/views/layouts/_header.html.erb:18: unknown regexp option - l
+  app/views/layouts/_header.html.erb:19: syntax error, unexpected '<'
+  app/views/layouts/_header.html.erb:20: syntax error, unexpected '<'
+  app/views/layouts/_header.html.erb:20: syntax error, unexpected '<'
+  app/views/layouts/_header.html.erb:20: unknown regexp option - l
+  app/views/layouts/_header.html.erb:21: syntax error, unexpected '<'
+  app/views/layouts/_header.html.erb:21: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+  app/views/layouts/_header.html.erb:21: syntax error, unexpected '<'
+  app/views/layouts/_header.html.erb:21: unknown regexp option - l
+  app/views/layouts/_header.html.erb:22: syntax error, unexpected '<'
+  app/views/layouts/_header.html.erb:22: syntax error, unexpected keyword_class, expecting keyword_do or '{' or '('
+  app/views/layouts/_header.html.erb:22: syntax error, unexpected '<'
+  app/views/layouts/_header.html.erb:22: unknown regexp option - l
+  app/views/layouts/_header.html.erb:23: syntax error, unexpected '<'
+  app/views/layouts/_header.html.erb:24: unknown regexp options - dv
+  app/views/layouts/_header.html.erb:25: syntax error, unexpected '<'
+  app/views/layouts/_header.html.erb:26: unknown regexp options - av
+  app/views/layouts/_header.html.erb:28: unterminated string meets end of file
+  app/views/layouts/_header.html.erb:28: syntax error, unexpected end-of-input, expecting ')'
+  app/views/layouts/application.html.erb:11:in `_app_views_layouts_application_html_erb__1727804504110734498_50749800'
+
+
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.9ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.1ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (29.5ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.5ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/hubert/.rvm/gems/ruby-2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (25.3ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:31:52 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 51ms (Views: 49.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:31:55 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 61ms (Views: 60.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:31:57 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 56ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:32:57 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 60ms (Views: 58.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:33:18 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.6ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 60ms (Views: 59.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:33:31 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (1.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 58ms (Views: 57.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/%7B%7D" for 127.0.0.1 at 2015-05-21 00:33:32 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 00:33:32 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:33:32 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.8ms)
+  Rendered layouts/_header.html.erb (0.6ms)
+Completed 200 OK in 57ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/%7B%7D" for 127.0.0.1 at 2015-05-21 00:33:33 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 00:33:33 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:33:33 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 56ms (Views: 55.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/%7B%7D" for 127.0.0.1 at 2015-05-21 00:34:18 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 00:34:18 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:34:18 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.8ms)
+  Rendered layouts/_header.html.erb (1.2ms)
+Completed 200 OK in 57ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:34:44 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 49ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:34:56 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.8ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 58ms (Views: 56.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:35:04 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 55ms (Views: 53.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:35:28 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (6.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.1ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 57ms (Views: 55.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:35:32 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_header.html.erb (0.8ms)
+Completed 200 OK in 61ms (Views: 60.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:35:43 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (7.2ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 64ms (Views: 63.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:35:47 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.2ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 59ms (Views: 58.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:36:47 +0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (29.2ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 242ms (Views: 221.0ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 00:36:48 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:36:48 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 80ms (Views: 78.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 00:36:49 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:36:49 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 75ms (Views: 73.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 00:36:50 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:36:50 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.6ms)
+  Rendered layouts/_header.html.erb (0.7ms)
+Completed 200 OK in 61ms (Views: 60.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 00:36:51 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:36:51 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.2ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 127ms (Views: 126.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:38:04 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (12.1ms)
+  Rendered layouts/_header.html.erb (1.1ms)
+Completed 200 OK in 91ms (Views: 89.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 00:38:05 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:38:05 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.8ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.3ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 73ms (Views: 71.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 00:38:06 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:38:06 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (6.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 69ms (Views: 67.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 00:38:18 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:38:18 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (4.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.4ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 63ms (Views: 62.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 00:38:19 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:38:19 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 60ms (Views: 58.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-21 00:38:59 +0200
+Processing by ArticlesController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:38:59 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (8.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (14.5ms)
+  Rendered layouts/_header.html.erb (1.0ms)
+Completed 200 OK in 66ms (Views: 65.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-21 00:39:06 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (6.0ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (10.0ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+Completed 200 OK in 60ms (Views: 58.8ms | ActiveRecord: 0.0ms)

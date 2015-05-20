@@ -21,7 +21,7 @@ class ArticlesController < ApplicationController
 
   def edit
     @article = Article.find(params[:id])
-    if session[:article_id] != @article.id
+    if @article.user != current_user
       flash[:notice] = "Nie możesz tego edytować"
       redirect_to(articles_path)
     end

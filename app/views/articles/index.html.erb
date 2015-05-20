@@ -12,8 +12,8 @@
     <% @articles.each do |article| %>
       <tr>
         <td><%= article.user.name %></td>
-        <td><%= article.title %></td>
-        <td><%= article.text %></td>
+        <td><%= article.title[0..10] %></td>
+        <td><%= article.text[0..10] + "..." %></td>
         <td><%= link_to 'Show', article_path(article) %></td>
         <% if can? :manage_own_article, article %>
           <td><%= link_to 'Edit', edit_article_path(article) %></td>

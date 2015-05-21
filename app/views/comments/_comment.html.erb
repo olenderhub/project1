@@ -1,13 +1,12 @@
-<p>
-  <mark><strong>Commenter:</strong></mark>
-  <%= comment.commenter %>
-</p>
+<div class="panel-body">
+  <strong>Commenter:</strong>
+  <%= comment.commenter %><br>
 
-<p>
-  <mark><strong>Comment:</strong></mark>
+  <strong>Comment:</strong>
   <%= comment.body %>
-</p>
 
-<% if can? :destroy, comment %>
-  <p><%= link_to 'Usuń ten komentarz', [comment.article, comment], method: :delete, data: { confirm: 'Czy jesteś pewien?' } %></p>
-<% end %>
+  <% if can? :destroy, comment %>
+    <p><%= link_to 'Delete this comment', [comment.article, comment], method: :delete, data: { confirm: 'Are you sure?' } %></p>
+  <% end %>
+</div>
+

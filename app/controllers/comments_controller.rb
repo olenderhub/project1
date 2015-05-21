@@ -3,6 +3,7 @@ class CommentsController < ApplicationController
     @article = Article.find(params[:article_id])
     @comment = @article.comments.new(comment_params)
     @comment.user = current_user
+    @comment.commenter = current_user.name
     @comment.save
     redirect_to article_path(@article)
   end
@@ -11,7 +12,7 @@ class CommentsController < ApplicationController
     @article = Article.find(params[:article_id])
     @comment = @article.comments.find(params[:id])
     if @comment.user != current_user
-      flash[:notice] = "Nie możesz tego usunąć"
+      flash[:notice] = "You can't delete this!"
       redirect_to(@article)
     else
       @comment.destroy

@@ -3,7 +3,7 @@
   <% if @article.errors.any? %>
     <div id="error_explanation">
       <h2>
-        <%= pluralize(@article.errors.count, "error") %> - nie można dokonać zmian ponieważ:
+        <%= pluralize(@article.errors.count, "error") %> - You can't do it because:
       </h2>
       <ul>
         <% @article.errors.full_messages.each do |msg| %>
@@ -15,7 +15,7 @@
 <div class="form-group">
   <p>
     <%= f.label :title %><br>
-    <%= f.text_field :title %>
+    <%= f.text_field :title, class: "newart" %>
   </p>
 </div>
 <div class="form-group">
@@ -24,15 +24,16 @@
     <%= f.text_area :text %>
   </p>
 </div>
-<p><%= image_tag(@article.photo_url) if @article.photo? %></p>
+<%= image_tag(@article.photo_url) if @article.photo? %>
 
-<p>Wybierz obrazek z którymś rozszerzeniem: jpg, jpeg, gif, png.</p>
+<p>Choose file (jpg, jpeg, gif, png)</p>
+
 <div class=”form-group”>
-  <%= f.file_field :photo %>
+  <p><%= f.file_field :photo %></p>
 </div>
 
   <p>
-    <%= f.submit %>
+    <%= f.submit "Click here to update article" %>
   </p>
 
 <% end %>

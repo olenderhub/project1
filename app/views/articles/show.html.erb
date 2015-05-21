@@ -23,13 +23,11 @@
 
 <%= render @article.comments %>
 
-
-
   </table>
 </div>
 <h2>Add a comment:</h2>
 <%= render 'comments/form' %>
 
-<%= link_to 'Edit article', edit_article_path(@article) %>  |
+<span class="glyphicon glyphicon-chevron-left"></span>
 <%= link_to 'Back', articles_path %>
 

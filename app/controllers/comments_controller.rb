@@ -3,7 +3,7 @@ class CommentsController < ApplicationController
     @article = Article.find(params[:article_id])
     @comment = @article.comments.new(comment_params)
     @comment.user = current_user
-    @comment.commenter = current_user.name
+    @comment.commenter = current_user.email.to_s.split("@")[0].titleize
     @comment.save
     redirect_to article_path(@article)
   end

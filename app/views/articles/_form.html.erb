@@ -15,25 +15,25 @@
 <div class="form-group">
   <p>
     <%= f.label :title %><br>
-    <%= f.text_field :title, class: "newart" %>
+    <%= f.text_field :title, class: "form-control newart" %>
   </p>
 </div>
 <div class="form-group">
   <p>
     <%= f.label :text %><br>
-    <%= f.text_area :text %>
+    <%= f.text_area :text, class: "form-control newart" %>
   </p>
 </div>
 <%= image_tag(@article.photo_url) if @article.photo? %>
 
-<p>Choose file (jpg, jpeg, gif, png)</p>
+<p><b>Choose file (jpg, jpeg, gif, png)</b></p>
 
 <div class=”form-group”>
-  <p><%= f.file_field :photo %></p>
+  <p><%= f.file_field :photo, class: "btn btn-default" %></p>
 </div>
 
   <p>
-    <%= f.submit "Click here to update article" %>
+    <%= f.submit class: "btn btn-primary newart" %>
   </p>
 
 <% end %>

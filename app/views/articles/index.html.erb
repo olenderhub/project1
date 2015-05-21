@@ -1,8 +1,13 @@
 <h1>Listing Articles</h1>
 
 
+<div class="panel panel-default">
+  <!-- Default panel contents -->
+  <div class="panel-heading"></div>
+
+
 <% if Article.all.any? %>
-  <table>
+  <table class="table">
     <tr>
       <th>Author</th>
       <th>Title</th>
@@ -18,11 +23,20 @@
         <% if can? :manage_own_article, article %>
           <td><%= link_to 'Edit', edit_article_path(article) %></td>
           <td><%= link_to 'Destroy', article_path(article), method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <% else %>
+          <td></td><td></td>
         <% end %>
       </tr>
     <% end %>
   </table>
 <% else %>
-  <p>Aktualnie brak artykułów!</p>
+
+<div class="panel-body">
+  <h4>Sorry there are no articles!</h4>
+</div>
 <% end %>
+
+</div>
+
+
 <%= link_to 'New article', new_article_path %>

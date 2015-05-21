@@ -12,7 +12,7 @@ class CommentsController < ApplicationController
     @article = Article.find(params[:article_id])
     @comment = @article.comments.find(params[:id])
     if @comment.user != current_user
-      flash[:notice] = "You can't delete this!"
+      flash[:warning] = "You can't delete this!"
       redirect_to(@article)
     else
       @comment.destroy

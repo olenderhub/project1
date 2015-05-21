@@ -22,7 +22,7 @@ class ArticlesController < ApplicationController
   def edit
     @article = Article.find(params[:id])
     if @article.user != current_user
-      flash[:notice] = "You can't edit this!"
+      flash[:warning] = "You can't edit this!"
       redirect_to(articles_path)
     end
   end

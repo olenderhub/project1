@@ -15,8 +15,12 @@
   <% else %>
 	<h5><b><%= "Welcome anonymous user!" %></b></h5>
   <% end %>
-<%= flash[:notice] %>
-<%= flash[:warning] %>
+  <% if flash[:notice] != nil %>
+     <div class="alert alert-info" role="alert"><%= flash[:notice] %></div>
+  <% end %>
+  <% if flash[:warning] != nil %>
+     <div class="alert alert-warning" role="alert"><%= flash[:warning] %></div>
+  <% end %>
 <div id="main-container">
   <div id="scroll">
     <div id="banner-holder">

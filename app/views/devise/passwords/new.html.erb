@@ -1,17 +1,18 @@
 <h2>Forgot your password?</h2>
 
 <%= form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f| %>
-  <%= devise_error_messages! %>
+  <%= devise_error_messages! %><br>
 
   <p><div class="field">
     <%= f.label :email %><br />
-    <%= f.email_field :email, autofocus: true, class: "forgot" %>
+    <%= f.email_field :email, autofocus: true, class: "form-control newart" %>
   </div></p>
 
   <div class="actions">
-    <%= f.submit "Send me new password" %>
+    <%= f.submit "Send me new password", class: "btn btn-primary newart" %>
   </div>
 <% end %>
+<span class="glyphicon glyphicon-chevron-left"></span>
+<%= link_to 'Back', root_path %>
 
-<%= render "devise/shared/links" %>
 

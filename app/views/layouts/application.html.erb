@@ -7,36 +7,29 @@
   <%= csrf_meta_tags %>
 </head>
 
-
 <%= render 'layouts/header' %>
 
 <body class="body-container">
-
-	<% if current_user %>
-	  <%= current_user.email %>
-	<% else %>
-	  <h5><b><%= "Welcome anonymous user!" %></b></h5>
-	<% end %>
-
+  <% if current_user %>
+    <h5><b><%= current_user.email %></b></h5>
+  <% else %>
+	<h5><b><%= "Welcome anonymous user!" %></b></h5>
+  <% end %>
 <%= flash[:notice] %>
 <%= flash[:warning] %>
-
 <div id="main-container">
   <div id="scroll">
     <div id="banner-holder">
-        <div id="banner"></div>
-        <div id="banner2"></div>
+      <div id="banner"></div>
+      <div id="banner2"></div>
     </div>
   </div>
 </div>
 
-
-
 <%= yield %>
+
 <%= render 'layouts/footer' %>
 
 <script>function scroll2(){$("#banner").css("left",width),$("#banner2").animate({left:"-"+width},scr,meth,function(){scroll()}),$("#banner").animate({left:"0px"},scr,meth,function(){})}function scroll(){$("#banner2").css("left",width),$("#banner").animate({left:"-"+width},scr,meth,function(){scroll2()}),$("#banner2").animate({left:"0px"},scr,meth,function(){})}var scr=4e4,width="957px",meth="linear";scroll();</script>
-
-
 </body>
 </html>

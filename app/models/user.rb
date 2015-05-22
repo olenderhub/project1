@@ -6,4 +6,8 @@ class User < ActiveRecord::Base
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
+
+  def to_s
+  	email.to_s.split("@")[0].titleize
+  end
 end

@@ -16,7 +16,7 @@
     </tr>
     <% @articles.each do |article| %>
       <tr>
-        <td><%= author(article) %></td>
+        <td><%= article.user %></td>
         <td><%= article.title[0..10] %></td>
         <td><%= article.text[0..10] + "..." %></td>
         <td><%= link_to 'Show', article_path(article) %></td>

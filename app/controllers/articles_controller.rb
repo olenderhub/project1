@@ -3,7 +3,7 @@ class ArticlesController < ApplicationController
   before_action :authenticate_user!
 
   def index
-    @articles = Article.all.includes(:user)
+    @articles = Article.includes(:user)
   end
 
   def show

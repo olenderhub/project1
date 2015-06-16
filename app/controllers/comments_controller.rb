@@ -3,8 +3,6 @@ class CommentsController < ApplicationController
     @article = Article.find(params[:article_id])
     @comment = @article.comments.new(comment_params)
     @comment.user = current_user
-
-    @comment.commenter = "#{current_user}"
     @comment.save
     redirect_to article_path(@article)
   end

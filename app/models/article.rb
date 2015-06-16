@@ -7,6 +7,5 @@ class Article < ActiveRecord::Base
   mount_uploader :photo, PhotoUploader
 
   has_many :comments, dependent: :destroy
-  has_many :commments, through: :comments
 
 end
